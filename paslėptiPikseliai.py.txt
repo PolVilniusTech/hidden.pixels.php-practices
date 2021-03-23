@@ -1,0 +1,23 @@
+#!/usr/bin/env python
+
+from PIL import Image, ImageDraw, ImageFont
+
+text = "Ar šiandien kimba?"
+
+img = Image.open("Image.png")
+draw = ImageDraw.Draw(img)
+font = ImageFont.truetype("Palem3.2.05-nm.ttf", 18)
+draw.text((0,0), text, (0,0,0), font=font)
+img.save('Image-with-text.png')
+
+img = Image.open("Image.png")
+draw = ImageDraw.Draw(img)
+font = ImageFont.truetype("Palem3.2.05-nm.ttf", 18)
+draw.text((0,0), text, (236,29,35), font=font)
+img.save('Image-with-text-2.png')
+
+img = Image.open("Image.png")
+draw = ImageDraw.Draw(img)
+font = ImageFont.truetype("Palem3.2.05-nm.ttf", 18)
+draw.text((0,0), text, (230,22,31), font=font)
+img.save('Image-with-text-3.png')
