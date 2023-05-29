@@ -42,3 +42,5 @@ The following artists have contributed to this Font creation (take from version 
 	Mindaugas Strockis, 
 	Ovidijus Talijūnas, 
 	Vykintas Characiejus.
+
+More about this [font](https://vlkk.lt/media/public/file/Angliski/Gair%C4%97s_2018-2022_XIII-1318_3_angl.docx).
