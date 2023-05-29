@@ -6,7 +6,7 @@ text = "Ar šis tekstas yra matomas?"
 
 dpi = 300
 
-def cm_to_px(cm)
+def cm_to_px(cm):
   return int(cm / 2.54 * dpi)
 
 width, height = (8.8, 4.4)
